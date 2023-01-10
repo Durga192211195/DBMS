@@ -1,0 +1,31 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| student_1          |
+| test               |
++--------------------+
+5 rows in set (0.00 sec)
+mysql> show tables;
++---------------------+
+| Tables_in_student_1 |
++---------------------+
+| course              |
+| department          |
+| faculty_1           |
+| student_1           |
++---------------------+
+4 rows in set (0.00 sec)
+
+mysql> desc student_1;
++--------+----------+------+-----+---------+-------+
+| Field  | Type     | Null | Key | Default | Extra |
++--------+----------+------+-----+---------+-------+
+| regno  | int(10)  | YES  |     | NULL    |       |
+| name   | char(20) | YES  |     | NULL    |       |
+| gender | char(10) | YES  |     | NULL    |       |
++--------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
