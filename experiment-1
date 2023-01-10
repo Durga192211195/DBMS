@@ -1,0 +1,25 @@
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| student_1          |
+| test               |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> use student_1;
+Database changed
+mysql> show tables;
++---------------------+
+| Tables_in_student_1 |
++---------------------+
+| course              |
+| department          |
+| faculty_1           |
+| student_1           |
++---------------------+
+4 rows in set (0.02 sec)
